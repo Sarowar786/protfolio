@@ -13,7 +13,7 @@ export default function Project() {
         <div className="flex flex-col lg:flex-row gap-8 ">
           {/* image */}
           <a
-            href="https://www.facebook.com"
+            href="http:localhost:8080/"
             target="blank"
             className="w-full lg:w-1/2 overflow-hidden relative group rounded-lg h-auto"
           >
@@ -54,7 +54,7 @@ export default function Project() {
         <div className="flex flex-col lg:flex-row-reverse gap-8 ">
           {/* image */}
           <a
-            href="https://www.facebook.com"
+            href="https://resturent-project-0ee750.netlify.app/"
             target="blank"
             className="w-full lg:w-1/2 overflow-hidden relative group rounded-lg h-auto"
           >
@@ -97,7 +97,7 @@ export default function Project() {
         <div className="flex flex-col lg:flex-row gap-8 ">
           {/* image */}
           <a
-            href="https://www.facebook.com"
+            href="https://sarowar786.github.io/Practise-Beatles/"
             target="blank"
             className="w-full lg:w-1/2 overflow-hidden relative group rounded-lg h-auto"
           >
@@ -140,7 +140,7 @@ export default function Project() {
         <div className="flex flex-col lg:flex-row-reverse gap-8 ">
           {/* image */}
           <a
-            href="https://www.facebook.com"
+            href="https://marble-4d92b1.netlify.app/"
             target="blank"
             className="w-full lg:w-1/2 overflow-hidden relative group rounded-lg h-auto"
           >
