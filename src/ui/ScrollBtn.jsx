@@ -31,7 +31,7 @@ export default function ScrollBtn() {
             initial={{ y: 0, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.4, delay:0.2 }}
-                className='fixed bottom-10 right-20 z-40 border border-designColor p-3 rounded-full cursor-pointer hover:bg-black transition duration-200 text-lightText bg-darkText/40 duration-300'
+                className='hidden md:inline-block fixed bottom-10 right-20 z-40 border border-designColor p-3 rounded-full cursor-pointer hover:bg-black transition duration-200 text-lightText bg-darkText/40 duration-300'
                 onClick={scrollToTop}
             >
                 <MdArrowUpward size={24} />
