@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
 import SocialLinks from "./SocialLinks";
-
 export default function Header() {
   const navigation = [
     { title: "home", link: "home", value: "" },
@@ -21,6 +20,15 @@ export default function Header() {
       setShow(false);
     }
   };
+
+  const handleResumeDownload = () => {
+    // Trigger the download of the resume file
+    const link = document.createElement("a");
+    link.href = "/public/My Resume.pdf"; // Update this to your resume file path
+    link.download = "Sarowar_Resume.pdf"; // Update this to the desired file name
+    link.click();
+  };
+
   return (
     <header className="h-20 shadow-lg shadow-designColor/20 px-4 lg:px-0 items-center flex sticky top-0 z-50 bg-primaryColor">
       <div className="w-[1440px] mx-auto items-center flex justify-between">
@@ -57,16 +65,15 @@ export default function Header() {
               </Link>
             ))}
           </div>
-          <motion.a
+          <motion.button
+          onClick={handleResumeDownload}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            href="#"
-            target="blank"
             className="text-[13px] uppercase font-medium rounded-md text-designColor border border-designColor tracking-wider px-4 py-2 hover:bg-hoverColor duration-300 cursor-pointer  "
           >
             resume
-          </motion.a>
+          </motion.button>
         </div>
         {/* menu button */}
         <div
@@ -120,16 +127,15 @@ export default function Header() {
                   ))}
                 </ul>
                 <div className="pt-7 flex flex-col items-center justify-center">
-                  <motion.a
+                  <motion.button
+                  onClick={handleResumeDownload}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5 }}
-                    href="#"
-                    target="blank"
                     className="text-[13px] uppercase font-medium rounded-md text-designColor border border-designColor tracking-wider px-4 py-2 hover:bg-hoverColor duration-300 cursor-pointer  "
                   >
                     resume
-                  </motion.a>
+                  </motion.button>
                   <SocialLinks className="flex items-center flex-row gap-5 pt-9  " />
                   <motion.a
                     initial={{ opacity: 0 }}
