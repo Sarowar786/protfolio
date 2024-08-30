@@ -1,8 +1,8 @@
 import React from "react";
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
-import heroImage from "../assets/Images/hero_img.jpg";
 import { GoCodeSquare } from "react-icons/go";
+import { heroImage } from "../assets";
 
 export default function About() {
   const textArray = [
@@ -60,7 +60,7 @@ export default function About() {
               <img
                 src={heroImage}
                 alt="hero image"
-                className=" h-[450px] rounded-lg"
+                className=" h-[450px] rounded-lg "
               />
             </div>
           </div>
