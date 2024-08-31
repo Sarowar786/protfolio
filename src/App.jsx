@@ -9,6 +9,7 @@ import Project from "./ui/Project"
 import RightSide from "./ui/RightSide"
 import ScrollBtn from "./ui/ScrollBtn"
 import { motion } from 'framer-motion';
+import Skill from "./ui/Skill"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Experience />
       <Project />
       <Archive />
+      <Skill/>
       <Contact />
       <motion.div
         initial={{ opacity: 0 }}

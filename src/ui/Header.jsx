@@ -10,7 +10,8 @@ export default function Header() {
     { title: "about", link: "about", value: "01", delay: "0.1" },
     { title: "experience", link: "experience", value: "02", delay: "0.2" },
     { title: "project", link: "project", value: "03", delay: "0.3" },
-    { title: "contact", link: "contact", value: "04", delay: "0.4" },
+    { title: "skill", link: "skill", value: "04", delay: "0.4" },
+    { title: "contact", link: "contact", value: "05", delay: "0.5" },
   ];
 
   const [show, setShow] = useState(false);

@@ -60,7 +60,7 @@ export default function About() {
               <img
                 src={heroImage}
                 alt="hero image"
-                className=" h-[450px] rounded-lg "
+                className=" h-[450px] rounded-3xl border-2 border-designColor/40  hover:border-designColor  transform hover:scale-105 duration-300"
               />
             </div>
           </div>

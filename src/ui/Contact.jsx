@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <Container id='contact' className='py-10 lg:py-24 flex flex-col justify-center items-center gap-2'>
       <p className='text-designColor text-lg font-semibold tracking-wide'>
-        04. What's next?
+        05. What's next?
       </p>
         <h1 className='text-5xl font-semibold'>Get in touch</h1>
         <p className='max-w-lg mx-auto text-center text-darkText'>Although I'm not currently looking for any new opportunities, my inbox is always open. Whather you have a question or just want to say hi, I'll try my best to get back to you!</p>
