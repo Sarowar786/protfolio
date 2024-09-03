@@ -20,12 +20,12 @@ const skills = [
   { name: "Tailwind-CSS", icon: <RiTailwindCssFill size={40} />, proficiency: "97%" },
   { name: "JavaScript", icon: <IoLogoJavascript size={40} />, proficiency: "90%" },
   { name: "TypeScript", icon: <SiTypescript size={40} />, proficiency: "90%" },
-  { name: "React js", icon: <FaReact size={40} />, proficiency: "92%" },
-  { name: "Node js", icon: <FaNodeJs size={40} />, proficiency: "92%" },
+  { name: "React js", icon: <FaReact size={40} />, proficiency: "70%" },
+  { name: "Node js", icon: <FaNodeJs size={40} />, proficiency: "82%" },
   { name: "Express js", icon: <SiFramer size={40} />, proficiency: "92%" },
-  { name: "MongoDB", icon: <SiMongodb size={40} />, proficiency: "92%" },
-  { name: "Firebase", icon: <DiFirebase size={40} />, proficiency: "92%" },
-  { name: "Photoshop", icon: <SiAdobephotoshop size={40} />, proficiency: "92%" },
+  { name: "MongoDB", icon: <SiMongodb size={40} />, proficiency: "62%" },
+  { name: "Firebase", icon: <DiFirebase size={40} />, proficiency: "72%" },
+  { name: "Photoshop", icon: <SiAdobephotoshop size={40} />, proficiency: "50%" },
 ];
 
 const Skills = () => {
