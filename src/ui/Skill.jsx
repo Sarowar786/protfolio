@@ -30,7 +30,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <Container className="text-white p-8 rounded-lg">
+    <Container id="skill" className="text-white p-8 rounded-lg">
       <SectionTitle title="Skill" titleNo={4} />
 
       <div >
