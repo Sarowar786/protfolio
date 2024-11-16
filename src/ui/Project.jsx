@@ -72,7 +72,7 @@ export default function Project() {
               <p className="text-designColor tracking-wide text-lg">
                 Fetured Project
               </p>
-              <h3 className="font-bold text-2xl">Restaurent Management</h3>
+              <h3 className="font-bold text-2xl">E-commerce Shofy clone</h3>
             </div>
             <p className="bg-textBg text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16 z-10">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -86,6 +86,7 @@ export default function Project() {
               <li>Node js</li>
               <li>Express js</li>
               <li>Mongo DB</li>
+              <li>Next js</li>
             </ul>
             <ProjectsLinks
               link=" https://sarowar786.github.io/Restaurant-sites/"
@@ -158,7 +159,7 @@ export default function Project() {
               <p className="text-designColor tracking-wide text-lg">
                 Fetured Project
               </p>
-              <h3 className="font-bold text-2xl">Marble</h3>
+              <h3 className="font-bold text-2xl">Todo Application</h3>
             </div>
             <p className="bg-textBg text-sm md:text-base p-2 md:p-6 rounded-md lg:-mr-16 z-10">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -169,9 +170,8 @@ export default function Project() {
             <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 text-darkText juntify-between">
               <li>React</li>
               <li>Javascript</li>
-              <li>Node js</li>
-              <li>Express js</li>
-              <li>Mongo DB</li>
+              <li>Redux toolkit</li>
+              <li>React Persist</li>
             </ul>
             <ProjectsLinks
               link="https://sarowar786.github.io/Marble-project/"

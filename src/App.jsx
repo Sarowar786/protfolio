@@ -10,12 +10,15 @@ import RightSide from "./ui/RightSide"
 import ScrollBtn from "./ui/ScrollBtn"
 import { motion } from 'framer-motion';
 import Skill from "./ui/Skill"
+import Particlesbg from "./Particals/config/Particlesbg"
 
 
-function App() {
+function App(){
+  
 
   return (
     <main className="font-bodyFont min-h-screen bg-primaryColor text-lightText">
+      
       <Header />
       <Banner />
       <About />
@@ -42,6 +45,7 @@ function App() {
         <RightSide />
       </motion.div>
       <ScrollBtn />
+      {/* <Particlesbg/> */}
     </main>
   )
 }

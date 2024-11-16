@@ -11,8 +11,7 @@ export default function About() {
     { title: "Node js", link: "/https://github.com/Sarowar786" },
     { title: "Express js", link: "/https://github.com/Sarowar786" },
     { title: "MongoDB", link: "/https://github.com/Sarowar786" },
-    { title: "Tailwind css", link: "/https://github.com/Sarowar786" },
-    { title: "Bootstrap", link: "/https://github.com/Sarowar786" },
+    { title: "Next js", link: "/https://github.com/Sarowar786" },
   ];
   return (
     <Container id="about" className="py-10 lg:py-32  flex flex-col gap-8">
