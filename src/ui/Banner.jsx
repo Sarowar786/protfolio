@@ -35,7 +35,7 @@ export default function Banner() {
       animate={{y:0,opacity:1}} 
       transition={{duration:0.1 , delay:.9}}
       className="md:max-w-[650px] text-darkText font-medium leading-7 ">
-        I am a web developer with 2+ years of experience in React. I have a strong foundation in front-end & i also learn back-end development.I am skilled in creating user-friendly and responsive web applications using React and its ecosystem.{' '}
+        I am a web developer with 3+ years of experience in React. I have a strong foundation in front-end & i also learn back-end development.I am skilled in creating user-friendly and responsive web applications using React and its ecosystem.{' '}
         <a href="#" >
           <span className="text-designColor h-7 relative overflow-x-hidden inline-flex group cursor-pointer">
             Learn more
