@@ -5,31 +5,31 @@ import WorkCard from "./WorkCard";
 
 export default function Experience() {
   
-    const [workReactBd, setWorkReactBd] = useState(true);
+    const [workFortisGroup, setWorkFortisGroup] = useState(true);
     const [workGoogle, setWorkGoogle] = useState(false);
     const [workAmazon, setWorkAmazon] = useState(false);
     const [workApple, setWorkApple] = useState(false);
 
-    const handleReactBd = ()=>{
-      setWorkReactBd(true);
+    const handleFortisGroup = ()=>{
+      setWorkFortisGroup(true);
       setWorkGoogle(false)
       setWorkAmazon(false)
       setWorkApple(false)
     }
     const handleGoogle = ()=>{
-      setWorkReactBd(false);
+      setWorkFortisGroup(false);
       setWorkGoogle(true)
       setWorkAmazon(false)
       setWorkApple(false)
     }
     const handleAmazon = ()=>{
-      setWorkReactBd(false);
+      setWorkFortisGroup(false);
       setWorkGoogle(false)
       setWorkAmazon(true)
       setWorkApple(false)
     }
     const handleApple = ()=>{
-      setWorkReactBd(false);
+      setWorkFortisGroup(false);
       setWorkGoogle(false)
       setWorkAmazon(false)
       setWorkApple(true)
@@ -45,14 +45,14 @@ export default function Experience() {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li 
-            onClick={handleReactBd}
+            onClick={handleFortisGroup}
             className={`${
-              workReactBd
+              workFortisGroup
                 ? "border-l-designColor text-designColor"
                 : "border-l-hoverColor text-darkText"
-            } border-l-2 bg-transparent hover:bg-designColor/20 duration-300 py-3 text-sm cursor-pointer px-4 font-medium `}
+            } border-l-2 bg-transparent hover:bg-designColor/20 duration-300 py-3 text-sm cursor-pointer px-2 font-medium `}
           >
-            ReactBD
+            Fortis Group
           </li>
           <li
             onClick={handleGoogle}
@@ -87,15 +87,15 @@ export default function Experience() {
         </ul>
 
         {/* content */}
-        {workReactBd && <WorkCard 
-                    jobTitle="Web Designer"
-                    jobTag="@ReactBD"
-                    date="Jan 2021 -2022"
+        {workFortisGroup && <WorkCard 
+                    jobTitle="Web Developer (Intern)"
+                    jobTag="@FortisGroup"
+                    date="Jul 2025 - Present"
                     detailsOne="Write modern, performant, maintaaiable code for a diverse
                     array of client and internal projects "
                     detailsTwo=" Work with a variety of different languages, platforms,
-                    frameworks, and content management systems such as JavaScript, Gatsby,
-                    React, Craft, WordPress, Prismic, and Netlify "
+                    frameworks, and content management systems such as JavaScript,TypeScript,
+                    React, Redux, MySQL "
                     detailsThree=" Communicate with multi-desciplinary teams of engineer
                     designers, producers, and clients on a daily basis"/>}
         {workGoogle && <WorkCard 
