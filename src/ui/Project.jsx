@@ -3,12 +3,53 @@ import Container from "./Container";
 import SectionTitle from "./SectionTitle";
 // import amazon from "../assets/Images/amazonImg.png"
 import ProjectsLinks from "./ProjectsLinks";
-import { amazoneImg, project2, project3, project4 } from "../assets";
+import { amazoneImg, project2, project3, project4,hris } from "../assets";
 export default function Project() {
   return (
     <Container id="project" className="py-24">
       <SectionTitle title="Some things i have build " titleNo="03" />
       <div className="mt-14 flex flex-col justify-center items-center gap-28">
+        {/* project zero index */}
+        <div className="flex flex-col lg:flex-row-reverse gap-8 ">
+          {/* image */}
+          <a
+            href="http:localhost:8080/"
+            target="blank"
+            className="w-full lg:w-1/2 overflow-hidden relative group rounded-lg h-auto"
+          >
+            <img
+              src={hris}
+              alt="amazon image "
+              className="w-full h-full object-cover group-hover:scale-110 duration-200"
+            />
+            <div className="w-full h-full bg-designColor/10 absolute group-hover:bg-transparent top-0 left-0 rounded-lg duration-300" />
+          </a>
+
+          {/* description */}
+          <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:justify-between text-end items-end ">
+            <div className="text-end ">
+              <p className="text-designColor tracking-wide text-lg">
+                Fetured Project
+              </p>
+              <h3 className="font-bold text-2xl">Human Resource Management</h3>
+            </div>
+            <p className="bg-textBg text-sm md:text-base p-2 md:p-6 rounded-md lg:-ml-16 z-10">
+              Contributed to building an enterprise web application for Fortis Group, covering
+              employee lifecycle, payroll, requisitions, taxation, bonuses, performance tracking, and multi
+              company management—streamlining HR and administrative processes into a single unified
+              platform.
+            </p>
+            <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 text-darkText juntify-between">
+              <li>React</li>
+              <li>Javascript</li>
+              <li>TypeScript</li>
+              <li>Redux</li>
+              <li>My SQL</li>
+            </ul>
+            <ProjectsLinks link="https://github.com/Sarowar786/"
+              githubLink=" https://github.com/Sarowar786/" />
+          </div>
+        </div>
         {/* project one */}
         <div className="flex flex-col lg:flex-row gap-8 ">
           {/* image */}
@@ -46,8 +87,8 @@ export default function Project() {
               <li>Express js</li>
               <li>Mongo DB</li>
             </ul>
-            <ProjectsLinks link="https://github.com/Sarowar786/" 
-            githubLink=" https://github.com/Sarowar786/" />
+            <ProjectsLinks link="https://github.com/Sarowar786/"
+              githubLink=" https://github.com/Sarowar786/" />
           </div>
         </div>
         {/* project two */}

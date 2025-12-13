@@ -4,5 +4,6 @@ import project2 from './Images/project2.png'
 import project3 from './Images/project3.png'
 import project4 from './Images/project4.png'
 import heroImage from './Images/sarowar.jpg'
+import hris from './Images/hris.png'
 
-export{logo, amazoneImg,project2,project3,project4,heroImage}
+export{logo, amazoneImg,project2,project3,project4,heroImage,hris}
