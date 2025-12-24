@@ -13,7 +13,7 @@ export default function Project() {
         <div className="flex flex-col lg:flex-row-reverse gap-8 ">
           {/* image */}
           <a
-            href="http:localhost:8080/"
+            href="https://hrm.fortisautomation.com/"
             target="blank"
             className="w-full lg:w-1/2 overflow-hidden relative group rounded-lg h-auto"
           >
@@ -31,7 +31,7 @@ export default function Project() {
               <p className="text-designColor tracking-wide text-lg">
                 Fetured Project
               </p>
-              <h3 className="font-bold text-2xl">Human Resource Management</h3>
+              <h3 className="font-bold text-2xl">Human Resource Management(HRIS)</h3>
             </div>
             <p className="bg-textBg text-sm md:text-base p-2 md:p-6 rounded-md lg:-ml-16 z-10">
               Contributed to building an enterprise web application for Fortis Group, covering
@@ -95,7 +95,7 @@ export default function Project() {
         <div className="flex flex-col lg:flex-row-reverse gap-8 ">
           {/* image */}
           <a
-            href="https://resturent-project-0ee750.netlify.app/"
+            href="https://shofy-azure.vercel.app/"
             target="blank"
             className="w-full lg:w-1/2 overflow-hidden relative group rounded-lg h-auto"
           >
@@ -182,7 +182,7 @@ export default function Project() {
         <div className="flex flex-col lg:flex-row-reverse gap-8 ">
           {/* image */}
           <a
-            href="https://marble-4d92b1.netlify.app/"
+            href="https://todo-app-rust-beta.vercel.app/"
             target="blank"
             className="w-full lg:w-1/2 overflow-hidden relative group rounded-lg h-auto"
           >
