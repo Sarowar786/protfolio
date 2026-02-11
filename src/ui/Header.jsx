@@ -25,7 +25,7 @@ export default function Header() {
   const handleResumeDownload = () => {
     // Trigger the download of the resume file
     const link = document.createElement("a");
-    link.href = "/public/Sarowar resume.pdf"; // Update this to your resume file path
+    link.href = "/public/Resume of Sarowar.pdf"; // Update this to your resume file path
     link.download = "Sarowar_Resume.pdf"; // Update this to the desired file name
     link.click();
   };

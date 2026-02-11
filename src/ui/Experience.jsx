@@ -6,31 +6,31 @@ import WorkCard from "./WorkCard";
 export default function Experience() {
   
     const [workFortisGroup, setWorkFortisGroup] = useState(true);
-    const [workGoogle, setWorkGoogle] = useState(false);
+    const [workSMTechnology, setworkSMTechnology] = useState(false);
     const [workAmazon, setWorkAmazon] = useState(false);
     const [workApple, setWorkApple] = useState(false);
 
     const handleFortisGroup = ()=>{
       setWorkFortisGroup(true);
-      setWorkGoogle(false)
+      setworkSMTechnology(false)
       setWorkAmazon(false)
       setWorkApple(false)
     }
     const handleGoogle = ()=>{
       setWorkFortisGroup(false);
-      setWorkGoogle(true)
+      setworkSMTechnology(true)
       setWorkAmazon(false)
       setWorkApple(false)
     }
     const handleAmazon = ()=>{
       setWorkFortisGroup(false);
-      setWorkGoogle(false)
+      setworkSMTechnology(false)
       setWorkAmazon(true)
       setWorkApple(false)
     }
     const handleApple = ()=>{
       setWorkFortisGroup(false);
-      setWorkGoogle(false)
+      setworkSMTechnology(false)
       setWorkAmazon(false)
       setWorkApple(true)
     }
@@ -57,12 +57,12 @@ export default function Experience() {
           <li
             onClick={handleGoogle}
             className={`${
-              workGoogle
+              workSMTechnology
                 ? "border-l-designColor text-designColor"
                 : "border-l-hoverColor text-darkText"
             } border-l-2 bg-transparent hover:bg-designColor/20 duration-300 py-3 text-sm cursor-pointer px-4 font-medium `}
           >
-            Google
+            SM-Technology
           </li>
           <li
             onClick={handleAmazon}
@@ -98,10 +98,10 @@ export default function Experience() {
                     React, Redux, MySQL "
                     detailsThree=" Communicate with multi-desciplinary teams of engineer
                     designers, producers, and clients on a daily basis"/>}
-        {workGoogle && <WorkCard 
-                    jobTitle="Web developer"
-                    jobTag="@Google.inc"
-                    date="Jan 2022 -2023"
+        {workSMTechnology && <WorkCard 
+                    jobTitle="Frontend developer"
+                    jobTag="@SM-Technology"
+                    date="Feb 2026 - Present"
                     detailsOne="Write modern, performant, maintaaiable code for a diverse
                     array of client and internal projects "
                     detailsTwo=" Work with a variety of different languages, platforms,
