@@ -43,22 +43,7 @@ export const projectArray = [
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repellat placeat mollitia deserunt magni odit atque ',
         listItem: ["React js",'Tailwind css','getform.io'] ,
         link:'https://github.com/Sarowar786/' },
-    { title: 'Modern Ecommerce website', 
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repellat placeat mollitia deserunt magni odit atque ',
-        listItem: ["React js",'Tailwind css','getform.io'] ,
-        link:'https://github.com/Sarowar786/' },
-    { title: 'Modern Ecommerce website', 
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repellat placeat mollitia deserunt magni odit atque ',
-        listItem: ["React js",'Tailwind css','getform.io'] ,
-        link:'https://github.com/Sarowar786/' },
-    { title: 'Modern Ecommerce website', 
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repellat placeat mollitia deserunt magni odit atque ',
-        listItem: ["React js",'Tailwind css','getform.io'] ,
-        link:'https://github.com/Sarowar786/' },
-    { title: 'Modern Ecommerce website', 
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repellat placeat mollitia deserunt magni odit atque ',
-        listItem: ["React js",'Tailwind css','getform.io'] ,
-        link:'https://github.com/Sarowar786/' },
+    
     
     
 ]
