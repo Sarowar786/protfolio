@@ -4,8 +4,7 @@ This is my personal portfolio website built using React + Vite. It showcases my 
 
 🚀 Live Demo
 
-👉 https://sarowar786.github.io/protfolio/
- (update if deployed elsewhere)
+👉 https://sarowar07.vercel.app
 
 ✨ Features
 ⚡ Fast performance with Vite
